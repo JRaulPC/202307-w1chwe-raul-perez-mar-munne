@@ -23,6 +23,87 @@ button {
   background-color: transparent;
 }
 
+.buttons {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+.buttons .buttons__left {
+  display: flex;
+  transform: rotate(90deg);
+  padding: 28px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 12px;
+  background: #172432;
+}
+.buttons .buttons__right {
+  display: flex;
+  transform: rotate(-90deg);
+  padding: 28px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 12px;
+  background: #ff7757;
+}
+
+.cards__list .card1 .card1__title {
+  align-self: stretch;
+  color: #172432;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cards__list .card1 .card1__location {
+  flex: 1 0 0;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cards__list .card2 .card2__title {
+  align-self: stretch;
+  color: #172432;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cards__list .card2 .card2__location {
+  flex: 1 0 0;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cards__list .card2 .card3 .card3__title {
+  align-self: stretch;
+  color: #172432;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cards__list .card2 .card3 .card3__location {
+  flex: 1 0 0;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .titles {
   align-self: stretch;
 }
@@ -43,12 +124,7 @@ button {
   flex-direction: column;
   gap: 100px;
   min-height: 100vw;
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.3) 0%,
-      rgba(0, 0, 0, 0.3) 100%
-    ),
-    url(../design-assets/background-main.jpeg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(../design-assets/background-main.jpeg);
   background-origin: inherit;
   background-position: 90% 50%;
 }
@@ -64,12 +140,6 @@ button {
 .titles {
   display: flex;
   flex-direction: column;
-}
-
-.destinations__symbol {
-  width: 24px;
-  height: 24px;
-  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=styles.css.map */
