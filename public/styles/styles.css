@@ -28,18 +28,42 @@ button {
 
 .destinations {
   font-family: inherit;
+  padding: 0.8rem;
 }
 
 .destinations__title {
   font-family: inherit;
+  font-weight: 500;
 }
 
 .destinations__subtitle {
   font-family: inherit;
+  font-size: 0.6rem;
+  font-weight: 400;
+  color: rgb(118, 126, 134);
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding: 80px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.card1__image {
+  width: 280px;
+}
+
+.card2__image {
+  width: 280px;
+}
+
+.card3__image {
+  width: 280px;
 }
 
 .buttons {

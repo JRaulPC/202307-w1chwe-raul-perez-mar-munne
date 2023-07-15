@@ -1,14 +1,88 @@
 .buttons {
-  font-family: inherit;
   display: flex;
+  align-items: flex-start;
+  gap: 40px;
   .buttons__left {
-    width: 60px;
-    height: 54.55px;
-    padding: 0.8rem;
+    display: flex;
+    transform: rotate(90deg);
+    padding: 28px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 12px;
+    background: #172432;
   }
   .buttons__right {
-    width: 60px;
-    height: 54.55px;
-    padding: 0.8rem;
+    display: flex;
+    transform: rotate(-90deg);
+    padding: 28px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 12px;
+    background: #ff7757;
+  }
+}
+
+.cards__list {
+  .card1 {
+    .card1__title {
+      align-self: stretch;
+      color: #172432;
+      font-family: Playfair Display;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .card1__location {
+      flex: 1 0 0;
+      color: #fff;
+      font-family: Rubik;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .card2 {
+    .card2__title {
+      align-self: stretch;
+      color: #172432;
+      font-family: Playfair Display;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .card2__location {
+      flex: 1 0 0;
+      color: #fff;
+      font-family: Rubik;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .card3 {
+      .card3__title {
+        align-self: stretch;
+        color: #172432;
+        font-family: Playfair Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .card3__location {
+        flex: 1 0 0;
+        color: #fff;
+        font-family: Rubik;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
   }
 }
