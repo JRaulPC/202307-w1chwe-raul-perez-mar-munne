@@ -1,0 +1,14 @@
+.buttons {
+  font-family: inherit;
+  display: flex;
+  .buttons__left {
+    width: 60px;
+    height: 54.55px;
+    padding: 0.8rem;
+  }
+  .buttons__right {
+    width: 60px;
+    height: 54.55px;
+    padding: 0.8rem;
+  }
+}
