@@ -27,18 +27,19 @@ button {
 }
 
 .destinations {
-  font: inherit;
+  font-family: inherit;
 }
 
 .destinations__title {
-  font: inherit;
+  font-family: inherit;
 }
 
 .destinations__subtitle {
-  font: inherit;
+  font-family: inherit;
 }
 
-.destinations__cards {
+ul {
+  list-style-type: none;
 }
 
 .buttons {
