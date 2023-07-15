@@ -1,10 +1,1 @@
-{
-  "version": 3,
-  "sourceRoot": "",
-  "sources": [
-    "../../src/sass/styles.scss"
-  ],
-  "names": [],
-  "mappings": "AAAA;EACE",
-  "file": "styles/styles.css"
-}
+{"version":3,"sourceRoot":"","sources":["../../src/sass/_globals.scss"],"names":[],"mappings":"AAAA;AAAA;EAEE;;;AAGF;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE;;;AAGF;AAAA;EAEE;EACA;;;AAGF;EACE","file":"styles.css"}

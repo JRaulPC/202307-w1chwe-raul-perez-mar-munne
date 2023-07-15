@@ -1,0 +1,27 @@
+* :before,
+:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+  font-family: "Playfair Display", "Rubik", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+input,
+button {
+  font: inherit;
+  border: none;
+}
+
+button {
+  background-color: transparent;
+}
