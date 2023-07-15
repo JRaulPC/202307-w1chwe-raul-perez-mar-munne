@@ -26,4 +26,35 @@ button {
   background-color: transparent;
 }
 
+.destinations {
+  font: inherit;
+}
+
+.destinations__title {
+  font: inherit;
+}
+
+.destinations__subtitle {
+  font: inherit;
+}
+
+.destinations__cards {
+}
+
+.buttons {
+  padding: 1rem;
+}
+
+.buttons_left {
+  width: 60px;
+  height: 54.55px;
+  padding: 0.8rem;
+}
+
+.buttons__right {
+  width: 60px;
+  height: 54.55px;
+  padding: 0.8rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
