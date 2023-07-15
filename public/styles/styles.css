@@ -3,13 +3,10 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 1.5rem;
-}
-
 body {
   margin: 0;
   font-family: "Playfair Display", "Rubik", sans-serif;
+  height: 100vw;
 }
 
 a {
@@ -26,36 +23,42 @@ button {
   background-color: transparent;
 }
 
-.destinations {
-  font-family: inherit;
+.titles {
+  align-self: stretch;
+}
+.titles__title {
+  font-family: "Playfair Display", serif;
+  color: #fbfbfb;
+  font-size: 2.5rem;
+}
+.titles__subtitle {
+  font-family: "Rubik", sans-serif;
+  color: #fbfbfb;
+  font-size: 1.125rem;
 }
 
-.destinations__title {
-  font-family: inherit;
+.welcome--page {
+  padding: 0px 16px 100px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  min-height: 100vw;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(../design-assets/background-main.jpeg);
+  background-origin: inherit;
+  background-position: 90% 50%;
+}
+.welcome--page__items {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
 }
 
-.destinations__subtitle {
-  font-family: inherit;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.buttons {
-  padding: 1rem;
-}
-
-.buttons_left {
-  width: 60px;
-  height: 54.55px;
-  padding: 0.8rem;
-}
-
-.buttons__right {
-  width: 60px;
-  height: 54.55px;
-  padding: 0.8rem;
+.titles {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=styles.css.map */
