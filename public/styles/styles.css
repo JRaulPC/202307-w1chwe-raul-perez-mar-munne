@@ -43,7 +43,12 @@ button {
   flex-direction: column;
   gap: 100px;
   min-height: 100vw;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(../design-assets/background-main.jpeg);
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(../design-assets/background-main.jpeg);
   background-origin: inherit;
   background-position: 90% 50%;
 }
@@ -59,6 +64,12 @@ button {
 .titles {
   display: flex;
   flex-direction: column;
+}
+
+.destinations__symbol {
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=styles.css.map */
