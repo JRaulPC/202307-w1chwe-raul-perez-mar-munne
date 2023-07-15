@@ -82,4 +82,10 @@ ul {
   padding: 0.8rem;
 }
 
+.destinations__symbol {
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+}
+
 /*# sourceMappingURL=styles.css.map */
