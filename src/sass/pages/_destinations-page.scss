@@ -58,12 +58,10 @@
   .card1__text-container {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    color: #ffffff;
     position: absolute;
-    bottom: 40px;
+    bottom: 0px;
     width: 100%;
-    height: 100%;
+    padding: 2.5rem 1.25rem;
   }
   .card1__title {
     align-self: stretch;
@@ -107,12 +105,10 @@
 .card2__text-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  color: #ffffff;
   position: absolute;
-  bottom: 40px;
+  bottom: 0px;
   width: 100%;
-  height: 100%;
+  padding: 2.5rem 1.25rem;
 }
 .card2__title {
   align-self: stretch;
@@ -155,12 +151,10 @@
 .card3__text-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  color: #ffffff;
   position: absolute;
-  bottom: 40px;
+  bottom: 0px;
   width: 100%;
-  height: 100%;
+  padding: 2.5rem 1.25rem;
 }
 .card3__title {
   align-self: stretch;

@@ -187,12 +187,10 @@ button {
 .cards__list .card1__text-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  color: #ffffff;
   position: absolute;
-  bottom: 40px;
+  bottom: 0px;
   width: 100%;
-  height: 100%;
+  padding: 2.5rem 1.25rem;
 }
 .cards__list .card1__title {
   align-self: stretch;
@@ -233,12 +231,10 @@ button {
 .card2__text-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  color: #ffffff;
   position: absolute;
-  bottom: 40px;
+  bottom: 0px;
   width: 100%;
-  height: 100%;
+  padding: 2.5rem 1.25rem;
 }
 
 .card2__title {
@@ -281,12 +277,10 @@ button {
 .card3__text-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  color: #ffffff;
   position: absolute;
-  bottom: 40px;
+  bottom: 0px;
   width: 100%;
-  height: 100%;
+  padding: 2.5rem 1.25rem;
 }
 
 .card3__title {
