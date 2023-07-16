@@ -1,0 +1,7 @@
+@use "../base/fonts";
+@use "../variables/colors";
+
+input[type="text"] {
+  border-bottom: 1px solid;
+  width: 100%;
+}
