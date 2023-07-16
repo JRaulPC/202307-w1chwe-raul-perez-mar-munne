@@ -1,10 +1,44 @@
 @use "variables/colors";
+@use "base/fonts";
+
+@media (min-width: 799px) {
+  .travel {
+    display: flex;
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    align-self: stretch;
+    background-color: white;
+
+    &__form {
+      border-radius: 16px;
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      background-color: white;
+      align-items: flex-start;
+      align-self: stretch;
+
+      label {
+        font-family: fonts.$font-text;
+        color: colors.$text-color-mild;
+      }
+    }
+
+    input[type="text"] {
+      border-bottom: 1px solid;
+      border-width: 100%;
+    }
+  }
+}
 
 .travel {
-  border-radius: 16px;
-  border: 1px transparent;
   display: flex;
-  flex-direction: column;
+  border-radius: 0px 20px 20px 0px;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   gap: 60px;
@@ -12,12 +46,32 @@
   background-color: white;
 
   &__form {
+    border-radius: 0px 20px 20px 0px;
     padding: 20px 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 40px;
+    width: 75, 3125rem;
+    padding-left: 0px;
     background-color: white;
-    align-items: flex-start;
+    align-items: center;
     align-self: stretch;
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-family: fonts.$font-text;
+      color: colors.$text-color-mild;
+    }
+  }
+
+  input[type="text"] {
+    border-bottom: 1px solid;
+    border-width: 100%;
   }
 }
