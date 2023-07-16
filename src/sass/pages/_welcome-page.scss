@@ -1,18 +1,66 @@
 @use "../base/fonts";
 @use "../variables/colors";
 
+@media (min-width: 600px) {
+  .welcome-page {
+    &__menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 7vw;
+      color: colors.$text-color-light;
+      font-family: fonts.$font-text;
+      font-weight: bold;
+    }
+    &__burger {
+      display: none;
+    }
+    li a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: colors.$principal-color-dark;
+        text-underline-offset: 0.5rem;
+        text-decoration-thickness: 2px;
+      }
+    }
+
+    &__auth-menu {
+      button {
+        // Login button
+        &:first-of-type {
+          color: red;
+        }
+
+        // Signup button
+        &:last-of-type {
+          color: green;
+        }
+      }
+    }
+  }
+}
+
+// phone
+@media (max-width: 599px) {
+  .welcome-page {
+    &__menu {
+      display: none;
+    }
+  }
+}
+
 .welcome-page {
   padding: 0px 16px 100px 16px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 100px;
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.3) 0%,
-      rgba(0, 0, 0, 0.3) 100%
-    ),
-    url(../design-assets/background-main.jpeg);
+  background-image: url(../design-assets/background-main.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -60vw;
 
   header {
     padding: 24px 0;
@@ -33,7 +81,7 @@
   }
 }
 
-.titles {
+.hero {
   display: flex;
   flex-direction: column;
   gap: 16px;
