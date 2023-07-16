@@ -1,0 +1,21 @@
+@use "../variables/colors";
+
+.book__flights {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 44px 51px;
+  background-color: colors.$principal-color-dark;
+  border-radius: 0px 0px 16px 16px;
+
+  &-button {
+    color: colors.$text-color-light;
+    background-color: inherit;
+    font-size: 36px;
+    flex: 1 0 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

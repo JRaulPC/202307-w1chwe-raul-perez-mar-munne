@@ -1,0 +1,26 @@
+.buttons {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+
+  .buttons__left {
+    display: flex;
+    transform: rotate(90deg);
+    padding: 28px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 12px;
+    background: #172432;
+  }
+  .buttons__right {
+    display: flex;
+    transform: rotate(-90deg);
+    padding: 28px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 12px;
+    background: #ff7757;
+  }
+}

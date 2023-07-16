@@ -1,0 +1,23 @@
+@use "variables/colors";
+
+.travel {
+  border-radius: 16px;
+  border: 1px transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  align-self: stretch;
+  background-color: white;
+
+  &__form {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: white;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+}

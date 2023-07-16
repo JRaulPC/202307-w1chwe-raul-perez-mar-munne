@@ -15,16 +15,33 @@
 </head>
 
 <body>
-  <main>
-    <section class="welcome--page">
-      <header class="welcome--page__items">
-        <a class="welcome--page__logo"> <img src="design-assets/logo-light.svg" height="50px" alt="Travellian logo"></a>
-        <input class="welcome--page__burger" type="image" src="design-assets/icons/icons-svg/hamburger 1.svg"
+  <main class="page">
+    <section class="welcome__page">
+      <header class="welcome-page__items">
+        <a class="welcome-page__logo"> <img src="design-assets/logo-light.svg" height="50px" alt="Travellian logo"></a>
+        <input class="welcome-page__burger" type="image" src="design-assets/icons/icons-svg/hamburger 1.svg"
           alt="Display navigation menu">
       </header>
       <div class="titles">
         <span class="titles__title">Start your unforgettable journey with us.</span>
-        <span class="titles__subtitle">The best travel for your jouney begins now</span>
+        <span class="titles__subtitle">The best travel for your journey begins now</span>
+      </div>
+
+      <div class="travel">
+        <form class="travel__form">
+          <label for="destination">Destination</label>
+          <input type="text" name="destination" id="destination" required>
+          <label for="persons">Person</label>
+          <input type="text" name="persons" id="persons" required>
+          <label for="check-in">check-in</label>
+          <input type="text" name="check-in" id="check-in" required>
+          <label for="check-out">check-out</label>
+          <input type="text" name="check-out" id="check-in" required>
+        </form>
+        <div class="book__flights">
+          <button class="book__flights-button">Book Now</button>
+          <button>➡️</button>
+        </div>
       </div>
     </section>
 
@@ -55,7 +72,6 @@
           <span class="card3__title">Rialto Bridge</span>
           <span class="card3__location"><img src="../public\design-assets\icons\location-1.svg"
               class="destinations__symbol" /> Venice, Italy</span>
-
         </li>
       </ul>
       <div class="buttons">
