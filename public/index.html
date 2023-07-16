@@ -8,7 +8,8 @@
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik:wght@300&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800&family=Rubik:wght@300;400;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
 
@@ -42,18 +43,26 @@
 
       <div class="travel">
         <form class="travel__form">
-          <label for="destination">Destination</label>
-          <input type="text" name="destination" id="destination" required>
-          <label for="persons">Person</label>
-          <input type="text" name="persons" id="persons" required>
-          <label for="check-in">check-in</label>
-          <input type="text" name="check-in" id="check-in" required>
-          <label for="check-out">check-out</label>
-          <input type="text" name="check-out" id="check-in" required>
+          <div>
+            <label for="destination">Destination</label>
+            <input type="text" name="destination" id="destination" required>
+          </div>
+          <div>
+            <label for="persons">Person</label>
+            <input type="text" name="persons" id="persons" required>
+          </div>
+          <div>
+            <label for="check-in">Check-in</label>
+            <input type="text" name="check-in" id="check-in" required>
+          </div>
+          <div>
+            <label for="check-out">Check-out</label>
+            <input type="text" name="check-out" id="check-in" required>
+          </div>
         </form>
         <div class="book__flights">
           <button class="book__flights-button">Book Now</button>
-          <button>➡️</button>
+          <img src="design-assets/icons/icons-svg/Arrow 1.svg" alt="">
         </div>
       </div>
     </section>

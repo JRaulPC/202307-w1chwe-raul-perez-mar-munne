@@ -1,7 +1,7 @@
 @use "../base/fonts";
 @use "../variables/colors";
 
-@media (min-width: 600px) {
+@media (min-width: 799px) {
   .welcome-page {
     &__menu {
       display: flex;
@@ -10,7 +10,7 @@
       gap: 7vw;
       color: colors.$text-color-light;
       font-family: fonts.$font-text;
-      font-weight: bold;
+      font-weight: 400;
     }
     &__burger {
       display: none;
@@ -28,14 +28,20 @@
 
     &__auth-menu {
       button {
-        // Login button
         &:first-of-type {
-          color: red;
+          padding: 1.25rem 2rem;
+          color: colors.$text-color-light;
+          font-family: fonts.$font-text;
+          font-weight: 400px;
         }
 
-        // Signup button
         &:last-of-type {
-          color: green;
+          padding: 1.25rem 2rem;
+          border-radius: 20px;
+          color: colors.$text-color-light;
+          background-color: colors.$principal-color-dark;
+          font-family: fonts.$font-text;
+          font-weight: 400px;
         }
       }
     }
@@ -43,9 +49,13 @@
 }
 
 // phone
-@media (max-width: 599px) {
+@media (max-width: 800px) {
   .welcome-page {
     &__menu {
+      display: none;
+    }
+
+    &__auth-menu {
       display: none;
     }
   }
@@ -79,26 +89,44 @@
     width: 50px;
     height: 50px;
   }
-}
+  &__auth-menu {
+    button {
+      &:first-of-type {
+        padding: 1.25rem 2rem;
 
-.hero {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  align-items: flex-start;
-  align-self: stretch;
+        color: colors.$text-color-light;
+        font-family: fonts.$font-text;
+      }
 
-  &__title {
-    font-family: fonts.$font-headers;
-    color: colors.$text-color-light;
-    font-size: 2.5rem;
-    font-weight: 400;
+      &:last-of-type {
+        padding: 1.25rem 2rem;
+        border-radius: 20px;
+        color: colors.$text-color-light;
+        background-color: colors.$principal-color-dark;
+        font-family: fonts.$font-text;
+      }
+    }
   }
 
-  &__subtitle {
-    font-family: fonts.$font-text;
-    color: colors.$text-color-light;
-    font-size: 1.125rem;
-    font-weight: 400;
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    align-self: stretch;
+
+    &__title {
+      font-family: fonts.$font-headers;
+      color: colors.$text-color-light;
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+
+    &__subtitle {
+      font-family: fonts.$font-text;
+      color: colors.$text-color-light;
+      font-size: 1.125rem;
+      font-weight: 400;
+    }
   }
 }
