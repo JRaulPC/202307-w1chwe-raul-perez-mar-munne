@@ -72,7 +72,6 @@ button {
 }
 .buttons .buttons__left {
   display: flex;
-  transform: rotate(90deg);
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
@@ -81,7 +80,6 @@ button {
 }
 .buttons .buttons__right {
   display: flex;
-  transform: rotate(-90deg);
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
@@ -171,32 +169,33 @@ button {
   line-height: normal;
 }
 
-.cards__list {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
-}
 .cards__list .card1 {
   position: relative;
+  width: 18rem;
+  height: 20rem;
+  color: #fff;
 }
-.cards__list .card1 .card1__image {
+.cards__list .card1__image {
   display: flex;
-  position: absolute;
   border: 16px;
-  width: 288px;
-  height: 320px;
-  padding: 40px 20px;
+  width: 100%;
+  height: 100%;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
   border-radius: 16px;
   background: linear-gradient(0deg, rgba(255, 119, 87, 0.1) 0%, rgba(255, 119, 87, 0.1) 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
 }
-.cards__list .card1 .card1__title {
-  align-self: stretch;
+.cards__list .card1__text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
   position: absolute;
+  bottom: 40px;
+  width: 100%;
+  height: 100%;
+}
+.cards__list .card1__title {
+  align-self: stretch;
   color: #fff;
   font-family: Playfair Display;
   font-size: 24px;
@@ -204,8 +203,7 @@ button {
   font-weight: 500;
   line-height: normal;
 }
-.cards__list .card1 .card1__location {
-  position: absolute;
+.cards__list .card1__location {
   flex: 1 0 0;
   color: #fff;
   font-family: Rubik;
@@ -214,25 +212,37 @@ button {
   font-weight: 400;
   line-height: normal;
 }
-.cards__list .card2 {
+
+.card2 {
   position: relative;
+  width: 18rem;
+  height: 20rem;
+  color: #fff;
 }
-.cards__list .card2 .card2__image {
+
+.card2__image {
   display: flex;
-  position: absolute;
   border: 16px;
-  width: 288px;
-  height: 320px;
-  padding: 40px 20px;
+  width: 100%;
+  height: 100%;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
   border-radius: 16px;
   background: linear-gradient(0deg, rgba(255, 119, 87, 0.1) 0%, rgba(255, 119, 87, 0.1) 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
 }
-.cards__list .card2 .card2__title {
-  align-self: stretch;
+
+.card2__text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
   position: absolute;
+  bottom: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.card2__title {
+  align-self: stretch;
   color: #fff;
   font-family: Playfair Display;
   font-size: 24px;
@@ -240,9 +250,9 @@ button {
   font-weight: 500;
   line-height: normal;
 }
-.cards__list .card2 .card2__location {
+
+.card2__location {
   flex: 1 0 0;
-  position: absolute;
   color: #fff;
   font-family: Rubik;
   font-size: 18px;
@@ -250,24 +260,37 @@ button {
   font-weight: 400;
   line-height: normal;
 }
-.cards__list .card2 .card3 {
+
+.card3 {
   position: relative;
+  width: 18rem;
+  height: 20rem;
+  color: #fff;
 }
-.cards__list .card2 .card3 .card3__image {
+
+.card3__image {
   display: flex;
   border: 16px;
-  width: 288px;
-  height: 320px;
-  padding: 40px 20px;
+  width: 100%;
+  height: 100%;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
   border-radius: 16px;
   background: linear-gradient(0deg, rgba(255, 119, 87, 0.1) 0%, rgba(255, 119, 87, 0.1) 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
 }
-.cards__list .card2 .card3 .card3__title {
-  align-self: stretch;
+
+.card3__text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
   position: absolute;
+  bottom: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.card3__title {
+  align-self: stretch;
   color: #fff;
   font-family: Playfair Display;
   font-size: 24px;
@@ -275,9 +298,9 @@ button {
   font-weight: 500;
   line-height: normal;
 }
-.cards__list .card2 .card3 .card3__location {
+
+.card3__location {
   flex: 1 0 0;
-  position: absolute;
   color: #fff;
   font-family: Rubik;
   font-size: 18px;
@@ -288,6 +311,12 @@ button {
 
 ul {
   list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+ul :not(:first-child) {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
