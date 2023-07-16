@@ -135,6 +135,9 @@ button {
   background: #ff7757;
 }
 
+.destinations {
+  display: block;
+}
 .destinations .destinations__title {
   align-self: stretch;
   color: #172432;
@@ -240,6 +243,10 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+ul {
+  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

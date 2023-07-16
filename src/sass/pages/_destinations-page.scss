@@ -1,4 +1,5 @@
 .destinations {
+  display: block;
   .destinations__title {
     align-self: stretch;
     color: #172432;
@@ -128,4 +129,8 @@
       }
     }
   }
+}
+
+ul {
+  list-style: none;
 }
