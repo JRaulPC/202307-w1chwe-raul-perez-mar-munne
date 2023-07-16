@@ -44,7 +44,6 @@
     position: relative;
     .card1__image {
       display: flex;
-      position: absolute;
       border: 16px;
       width: 288px;
       height: 320px;
@@ -60,9 +59,18 @@
         ),
         url(<path-to-image>), lightgray 50% / cover no-repeat;
     }
+    .card1__text-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      color: #ffffff;
+      position: absolute;
+      bottom: 40px;
+      width: 100%;
+      height: 100%;
+    }
     .card1__title {
       align-self: stretch;
-      position: absolute;
       color: #fff;
       font-family: Playfair Display;
       font-size: 24px;
@@ -71,7 +79,6 @@
       line-height: normal;
     }
     .card1__location {
-      position: absolute;
       flex: 1 0 0;
       color: #fff;
       font-family: Rubik;
@@ -85,7 +92,6 @@
     position: relative;
     .card2__image {
       display: flex;
-      position: absolute;
       border: 16px;
       width: 288px;
       height: 320px;
@@ -101,9 +107,18 @@
         ),
         url(<path-to-image>), lightgray 50% / cover no-repeat;
     }
+    .card2__text-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      color: #ffffff;
+      position: absolute;
+      bottom: 40px;
+      width: 100%;
+      height: 100%;
+    }
     .card2__title {
       align-self: stretch;
-      position: absolute;
       color: #fff;
       font-family: Playfair Display;
       font-size: 24px;
@@ -113,7 +128,6 @@
     }
     .card2__location {
       flex: 1 0 0;
-      position: absolute;
       color: #fff;
       font-family: Rubik;
       font-size: 18px;
@@ -140,9 +154,18 @@
           ),
           url(<path-to-image>), lightgray 50% / cover no-repeat;
       }
+      .card3__text-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #ffffff;
+        position: absolute;
+        bottom: 40px;
+        width: 100%;
+        height: 100%;
+      }
       .card3__title {
         align-self: stretch;
-        position: absolute;
         color: #fff;
         font-family: Playfair Display;
         font-size: 24px;
@@ -152,7 +175,6 @@
       }
       .card3__location {
         flex: 1 0 0;
-        position: absolute;
         color: #fff;
         font-family: Rubik;
         font-size: 18px;
