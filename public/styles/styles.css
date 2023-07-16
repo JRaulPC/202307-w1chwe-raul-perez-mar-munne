@@ -72,7 +72,6 @@ button {
 }
 .buttons .buttons__left {
   display: flex;
-  transform: rotate(90deg);
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
@@ -81,7 +80,6 @@ button {
 }
 .buttons .buttons__right {
   display: flex;
-  transform: rotate(-90deg);
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
@@ -173,7 +171,7 @@ button {
 
 .cards__list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
@@ -310,6 +308,10 @@ button {
 
 ul {
   list-style-type: none;
+}
+
+ul :not(:first-child) {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

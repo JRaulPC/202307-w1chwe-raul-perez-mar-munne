@@ -36,7 +36,7 @@
 
 .cards__list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
@@ -188,4 +188,8 @@
 
 ul {
   list-style-type: none;
+}
+
+ul :not(:first-child) {
+  display: none;
 }
