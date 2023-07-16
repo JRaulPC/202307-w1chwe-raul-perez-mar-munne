@@ -23,6 +23,46 @@ button {
   background-color: transparent;
 }
 
+.welcome__page {
+  padding: 0px 16px 100px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 100px;
+  min-height: 100vh;
+  width: 320px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(../design-assets/background-main.jpeg);
+}
+.welcome__page__items {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.titles__title {
+  font-family: "Playfair Display", serif;
+  color: #fbfbfb;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.titles__subtitle {
+  font-family: "Rubik", sans-serif;
+  color: #fbfbfb;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
 .buttons {
   display: flex;
   align-items: flex-start;
@@ -104,42 +144,44 @@ button {
   line-height: normal;
 }
 
-.titles {
-  align-self: stretch;
-}
-.titles__title {
-  font-family: "Playfair Display", serif;
-  color: #fbfbfb;
-  font-size: 2.5rem;
-}
-.titles__subtitle {
-  font-family: "Rubik", sans-serif;
-  color: #fbfbfb;
-  font-size: 1.125rem;
-}
-
-.welcome--page {
-  padding: 0px 16px 100px 16px;
+.travel {
+  border-radius: 16px;
+  border: 1px transparent;
   display: flex;
   flex-direction: column;
-  gap: 100px;
-  min-height: 100vw;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(../design-assets/background-main.jpeg);
-  background-origin: inherit;
-  background-position: 90% 50%;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  align-self: stretch;
+  background-color: white;
 }
-.welcome--page__items {
-  padding: 24px 16px;
+.travel__form {
+  padding: 20px 20px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 40px;
+  background-color: white;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.book__flights {
+  display: flex;
   align-items: center;
-  align-self: stretch;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 44px 51px;
+  background-color: #ff7757;
+  border-radius: 0px 0px 16px 16px;
 }
-
-.titles {
-  display: flex;
-  flex-direction: column;
+.book__flights-button {
+  color: #fbfbfb;
+  background-color: inherit;
+  font-size: 36px;
+  flex: 1 0 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /*# sourceMappingURL=styles.css.map */

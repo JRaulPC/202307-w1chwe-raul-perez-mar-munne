@@ -1,5 +1,7 @@
-@use "globals";
-@use "variables";
-@use "components";
-@use "titles";
-@use "welcome-page";
+@use "base/globals";
+@use "base/fonts";
+@use "variables/colors";
+@use "pages/welcome-page";
+@use "components/buttons";
+@use "form";
+@use "components/book-button";
