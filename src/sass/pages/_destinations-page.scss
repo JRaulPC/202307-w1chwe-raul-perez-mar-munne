@@ -181,6 +181,6 @@ ul {
   margin: 0;
 }
 
-ul :not(:first-child) {
+.cards__list :not(:first-child) {
   display: none;
 }
