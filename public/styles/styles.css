@@ -31,7 +31,12 @@ button {
   gap: 100px;
   min-height: 100vh;
   width: 320px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(../design-assets/background-main.jpeg);
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(../design-assets/background-main.jpeg);
 }
 .welcome__page__items {
   padding: 24px 16px;
@@ -182,7 +187,12 @@ button {
   height: 100%;
   flex-direction: column;
   border-radius: 16px;
-  background: linear-gradient(0deg, rgba(255, 119, 87, 0.1) 0%, rgba(255, 119, 87, 0.1) 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 119, 87, 0.1) 0%,
+      rgba(255, 119, 87, 0.1) 100%
+    ),
+    url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .cards__list .card1__text-container {
   display: flex;
@@ -225,7 +235,12 @@ button {
   height: 100%;
   flex-direction: column;
   border-radius: 16px;
-  background: linear-gradient(0deg, rgba(255, 119, 87, 0.1) 0%, rgba(255, 119, 87, 0.1) 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 119, 87, 0.1) 0%,
+      rgba(255, 119, 87, 0.1) 100%
+    ),
+    url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .card2__text-container {
@@ -271,7 +286,12 @@ button {
   height: 100%;
   flex-direction: column;
   border-radius: 16px;
-  background: linear-gradient(0deg, rgba(255, 119, 87, 0.1) 0%, rgba(255, 119, 87, 0.1) 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 119, 87, 0.1) 0%,
+      rgba(255, 119, 87, 0.1) 100%
+    ),
+    url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .card3__text-container {
