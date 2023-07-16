@@ -2,14 +2,16 @@
 
 .book__flights {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 12px;
   justify-content: space-between;
-  padding: 44px 51px;
-  background-color: colors.$principal-color-dark;
-  border-radius: 0px 0px 16px 16px;
+  padding: 20px 19px;
+  background-color: #ff7757;
+  border-radius: 0px 49px 40px 11px;
 
   &-button {
+    padding: 40px 0px;
     color: colors.$text-color-light;
     background-color: inherit;
     font-size: 2.2rem;
