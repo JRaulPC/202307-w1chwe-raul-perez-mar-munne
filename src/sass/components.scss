@@ -26,6 +26,22 @@
 
 .cards__list {
   .card1 {
+    .card1__image {
+      display: flex;
+      width: 288px;
+      height: 320px;
+      padding: 40px 20px;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+      border-radius: 16px;
+      background: linear-gradient(
+          0deg,
+          rgba(255, 119, 87, 0.1) 0%,
+          rgba(255, 119, 87, 0.1) 100%
+        ),
+        url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
     .card1__title {
       align-self: stretch;
       color: #172432;
@@ -46,6 +62,22 @@
     }
   }
   .card2 {
+    .card2__image {
+      display: flex;
+      width: 288px;
+      height: 320px;
+      padding: 40px 20px;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+      border-radius: 16px;
+      background: linear-gradient(
+          0deg,
+          rgba(255, 119, 87, 0.1) 0%,
+          rgba(255, 119, 87, 0.1) 100%
+        ),
+        url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
     .card2__title {
       align-self: stretch;
       color: #172432;
@@ -65,6 +97,22 @@
       line-height: normal;
     }
     .card3 {
+      .card3__image {
+        display: flex;
+        width: 288px;
+        height: 320px;
+        padding: 40px 20px;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        border-radius: 16px;
+        background: linear-gradient(
+            0deg,
+            rgba(255, 119, 87, 0.1) 0%,
+            rgba(255, 119, 87, 0.1) 100%
+          ),
+          url(<path-to-image>), lightgray 50% / cover no-repeat;
+      }
       .card3__title {
         align-self: stretch;
         color: #172432;
@@ -85,4 +133,31 @@
       }
     }
   }
+}
+
+.destinations {
+  .destinations__title {
+    align-self: stretch;
+    color: #172432;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .destinations__subtitle {
+    align-self: stretch;
+    color: #767e86;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.division-line {
+  width: 227px;
+  height: 3px;
+  background: #ff7757;
 }
